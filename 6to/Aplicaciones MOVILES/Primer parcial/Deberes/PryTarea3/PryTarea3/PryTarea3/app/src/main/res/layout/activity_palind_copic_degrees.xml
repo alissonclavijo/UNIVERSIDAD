@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PalindCopicDegreesActivity">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="413dp"
+        android:layout_height="147dp"
+        android:background="@color/dark_orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txtNumberWorld"
+        android:layout_width="370dp"
+        android:layout_height="62dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:fontFamily="@font/dm_sans"
+        android:hint="Ingrese un número o palabra"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textCursorDrawable="@color/dark_orange"
+        app:layout_constraintBottom_toTopOf="@+id/rgOptionsFactorialPrime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <TextView
+        android:id="@+id/txtTitle4"
+        android:layout_width="327dp"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:text="Palindromo, Copicuo y Grados"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <EditText
+        android:id="@+id/txtResult2"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="98dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:fontFamily="@font/montserrat"
+        android:gravity="start|top"
+        android:hint="Resultado"
+        android:inputType="textMultiLine"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnBack2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <RadioGroup
+        android:id="@+id/rgOptionsFactorialPrime"
+        android:layout_width="336dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtResult2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNumber"
+        app:layout_constraintVertical_bias="0.050000012">
+
+        <RadioButton
+            android:id="@+id/rbPalindrome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dark_orange"
+            android:fontFamily="@font/montserrat"
+            android:text="Comprobar si es Palindromo" />
+
+        <RadioButton
+            android:id="@+id/rbCopicuo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dark_orange"
+            android:fontFamily="@font/montserrat"
+            android:text="Comprobar si es Copicuo" />
+
+        <RadioButton
+            android:id="@+id/rbTransformSexagesimals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dark_orange"
+            android:fontFamily="@font/montserrat"
+            android:text="Transformar a Sexagesimal" />
+
+        <RadioButton
+            android:id="@+id/rbTransformCentesimals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dark_orange"
+            android:fontFamily="@font/montserrat"
+            android:text="Transformar a Centecimal" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="584dp"
+        android:backgroundTint="@color/light_orange"
+        android:fontFamily="@font/dm_sans"
+        android:text="Regresar"
+        android:textColor="#fef4ee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

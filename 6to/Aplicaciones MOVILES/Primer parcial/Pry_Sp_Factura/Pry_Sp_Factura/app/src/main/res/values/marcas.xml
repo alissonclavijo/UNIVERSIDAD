@@ -1,0 +1,13 @@
+<resources>
+    <string name="marcas">PrySpinner</string>
+    <string-array name="marcas">
+        <item>Seleccione:</item>
+        <item>Puma</item>
+        <item>Adidas</item>
+        <item>Nike</item>
+        <item>Converse</item>
+        <item>Vans</item>
+        <item>New Balance</item>
+        <item>Venus</item>
+    </string-array>
+</resources>

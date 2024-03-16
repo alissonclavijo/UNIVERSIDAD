@@ -1,0 +1,9 @@
+<resources>
+    <string name="tipo">PrySpinner</string>
+    <string-array name="tipo">
+        <item>Seleccione:</item>
+        <item>Casual</item>
+        <item>SemiCasual</item>
+        <item>Deportivo</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "280834212832",
+    "project_id": "store-data-real-time-878dd",
+    "storage_bucket": "store-data-real-time-878dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280834212832:android:28212ece323f165f4ce185",
+        "android_client_info": {
+          "package_name": "com.example.storedatarealtime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOgXdOjID8U_f0WDIMmiBDPj01EKC6t1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

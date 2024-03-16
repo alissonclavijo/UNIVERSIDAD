@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "339876870774",
+    "firebase_url": "https://realtimedatabase-df9c5-default-rtdb.firebaseio.com",
+    "project_id": "realtimedatabase-df9c5",
+    "storage_bucket": "realtimedatabase-df9c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339876870774:android:3275d6222899d9816a3d57",
+        "android_client_info": {
+          "package_name": "com.example.storedatapractice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKbfh6odoxGW0QYaE4Hg_vU3UGC29cN4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

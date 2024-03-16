@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pry_ListView_Personalizada" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- primary brand color/color de marca principal -->
+        <item name="colorPrimary">@color/lavander</item>
+        <item name="colorPrimaryVariant">@color/lavander</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- secondary brand color/color de marca secundaria -->
+        <item name="colorSecondary">@color/lavander</item>
+        <item name="colorSecondaryVariant">@color/real_700</item>
+        <item name="colorOnSecondary">@color/Black</item>
+
+        <!-- second brand color/color de marca secundaria -->
+        <item name="android:statusBarColor">@color/Black</item>
+
+
+
+
+
+    </style>
+<style name="roundedImageViewRounded">
+    <item name='cornerFamily'>rounded</item>
+
+</style>
+
+    <style name="Theme.Pry_ListView_Personalizada" parent="Base.Theme.Pry_ListView_Personalizada" />
+</resources>
