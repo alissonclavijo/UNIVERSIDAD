@@ -1,2 +1,0 @@
-# UNIVERSIDAD
-Semestres
