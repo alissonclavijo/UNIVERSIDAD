@@ -1,0 +1,1 @@
+export const BASE_PATH_DB= "http://localhost:3001/api_db";

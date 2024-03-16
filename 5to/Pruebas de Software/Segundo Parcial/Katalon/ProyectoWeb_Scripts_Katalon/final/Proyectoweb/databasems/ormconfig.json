@@ -1,0 +1,17 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "root",
+    "database": "microservicepowerfitdb",
+    "entities": ["./src/entities/activity.entity",
+                "./src/entities/administrator.entity",
+                "./src/entities/enterprise.entity",
+                "./src/entities/register.entity",
+                "./src/entities/reward.entity",
+                "./src/entities/user.entity"],
+    "synchronize": true,
+    "migrationsTableName": "custom_migration_table",
+    "migrations": ["src/database/migrations/*.ts"]
+}
